@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+    <style>
+        body {
+            background-image: url("https://th.bing.com/th/id/R.38b7a524c1c623706b88038a25c5fabd?rik=aPaNBzfJ07Hedw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fFree-Images-HD-Book-Wallpapers.jpg&ehk=6VbW0E4NMQSq%2bZWnRTKVpehKBwNMswED4tZ3rHwAU3c%3d&risl=&pid=ImgRaw&r=0");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            color: #211bcc; /* Set the text color to white */
+        }
+        h1 {
+            font-weight: bold;
+        }
+        h4 {
+            font-size: 18px;
+        }
+        input[type="text"] {
+            width: 200px;
+            padding: 5px;
+        }
+        table {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Payment By Credit Card</h1>
+    </center>
+    <form method="post" action="payment.html">
+        <br><br><br><br><br>
+        <table align="center">
+            <tr>
+                <td>
+                    <h4>Total Amount</h4>
+                </td>
+                <td>
+                    <input type="text" name="totalAmount">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4>Credit Card Number</h4>
+                </td>
+                <td>
+                    <input type="text" name="creditCardNumber">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="OK">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRATION</title>
+    <style>
+        body {
+            background-image: url("https://th.bing.com/th/id/R.38b7a524c1c623706b88038a25c5fabd?rik=aPaNBzfJ07Hedw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fFree-Images-HD-Book-Wallpapers.jpg&ehk=6VbW0E4NMQSq%2bZWnRTKVpehKBwNMswED4tZ3rHwAU3c%3d&risl=&pid=ImgRaw&r=0");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            color: #ffffff; /* Set the text color to white */
+        }
+        h1 {
+            font-weight: bold;
+            color: #181d6c; /* Set the text color for the heading */
+        }
+        form {
+            text-align: left;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td {
+            padding: 5px;
+            color: #f84121; /* Set the text color for table cells */
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>BOOK STORE REGISTRATION</h1>
+    </center>
+    <form method="post" action="registration.html">
+        <table>
+            <tr>
+                <td><h4>User name:</h4></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><h4>Password:</h4></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><h4>Confirm password:</h4></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><h4>Gender:</h4></td>
+                <td>
+                    <input type="radio" name="sex" id="male"><label for="male">Male</label>
+                    <input type="radio" name="sex" id="female"><label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
